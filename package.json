@@ -1,0 +1,14 @@
+{
+  "name": "mern-hotelreservation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install --perfix backend && npm install --perfix frontend && npm run build --perfix frontend",
+    "start": "npm run start --perfix backend"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
